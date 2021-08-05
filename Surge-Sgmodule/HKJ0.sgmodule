@@ -1,0 +1,215 @@
+#!name=黑科技打造福利合集
+[URL Rewrite]
+#加藤视频
+^https:\/\/api\..+\.cc\/shorter\/resource\/getStartPageList - reject
+
+#啪啪视频
+^https:\/\/api\.papa\w+\.com\/live\/api\/home\/announcement\/v1\/list- reject
+
+#麻豆短视频
+^https:\/\/mda\..+\.site\/api\/auth\/startupAdv - reject
+
+#新春水
+^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/vip\/newshow -reject
+^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/banner\/show -reject
+
+#三更视频
+^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/user\/voucher - reject
+
+#酷我音乐
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ http://musicpay.kuwo.cn/music.pay?uid=2 302
+
+#硬汉解锁VIP无限看
+#下载地址（任意邮箱注册，务必注册一下，延长会员时间
+#我的界面-无限观看-中间输入邀请码：IN7719862)
+#https://in14.xyz
+^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
+
+[Header Rewrite]
+#LUTU解锁VIP无限看
+#下载地址：
+#https://s-lutu.me
+#请注册填写邀请码：UDANQ4D，延续VIP时间！
+^https:\/\/api\.(jyjnsc|syclzg|shanzhili|flctkc|qhbsxxkj|lu2)\.(cn|com|net|asia)\/.+ header-replace Authorization Bearer e6EgBP-lexmTYa9xy8xqWb9QXcnHauNu61OXoqVfJZygFuJ85vfoq3zL6BO2-CZ6JKZmisBjC_dS-P2zx7OtKDAOOvZ9fFLbIBDO0ymSB0o
+
+#TIT解锁VIP无限看
+#tit下载地址
+#http://lad.pegqur.space/codeshare/original-initial-100/akr1ql?channel=original-initial-100&invite=akr1ql&img=https://imc.xwnvz.com/znm6ckiam03ih/v1/xswl/bbyy-pro/2980faee44e4000/2980faee44e40000.jpg
+^https:\/\/api\.ojbk123\.com\/major-api\/.+ header-replace jwt-token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxODY5MDczNTMxODA5NzUxMDQiLCJwYXlBY2NvdW50SWQiOjE4NjkwNzM1MzM0NDM3NjgzMiwiYWRtaW5Vc2VyTmFtZSI6IiIsImRyaXZlciI6ImlvcyIsInYiOiIiLCJleHAiOjE2MjY3MDY0NzYsImRldmljZS1pZCI6IjJmNmVmNzBkM2Y5ODRmZjQ4MDk5ZWQ1MWQ2YjkxOGEzIiwiaWF0IjoxNjI2MTAxNjc2fQ.NJfKo7j1k-I_GuJ7x4Dw2TpVJJCja-4gLN2lcB8k4Zs
+^https:\/\/api\.ojbk123\.com\/major-api\/.+ header-replace device-id 2f6ef70d3f984ff48099ed51d6b918a3
+
+#蛋壳视频
+^https:\/\/ipa\.angtrend\.com\/.+ header-replace uid 3378149
+^https:\/\/ipa\.angtrend\.com\/.+ header-replace token 7706a2958b2238afa26c8c3f7a299ada
+^https:\/\/ipa\.angtrend\.com\/.+ header-replace Cookie sec_tc=AQAAAMCT2kVx3QYAcBPuGv4EmARV6gG4
+^https:\/\/ipa\.angtrend\.com\/. header-replace User-Agent "dan ke/1.0 (iPhone; iOS 14.4.2; Scale/2.00)"
+
+#葫芦娃视频
+^https:\/\/(api-hlw|2-api)\.(.+)\.com\/api\/web\/.+ header-replace X-Auth-Token TIA:15889796:5840ca52c64a647995acea397673d3c3
+^https:\/\/(api-hlw|2-api)\.(.+)\.com\/api\/web\/.+ header-replace X-Ad-Version eyIxMSI6MjI1NCwiMTIiOjIwOTUsIjE1IjoyMDgwLCIxNiI6NjIyLCIxIjoyNzA4LCIyIjozOTA3LCIzIjoyNDI1LCI0IjoyNTUyLCI1IjoyNDE3LCI2IjoyMjkyLCI3IjozNTk3LCI4IjoyNjM2LCI5IjoyNTE0LCIzMCI6NzIsIjEwIjoyMzAxLCIyMSI6MjIwMH0=
+^https:\/\/(api-hlw|2-api)\.(.+)\.com\/api\/web\/.+ header-replace Cookie __cfduid=d1aa5518fa8088a9e0fe50dc5aff0fa4b1618990305
+^https:\/\/(api-hlw|2-api)\.(.+)\.com\/api\/web\/.+ header-replace X-Client-Identity APP/11;uv6c9m;huluwa.com;3.0.0;3.2.22 SYS/iOS13.5;iPhone8,1;ios FM/Apple;iPhone8%2C1 SDI/6f3ae6d0847a49a994b311154a9c20dc NE/WIFI LANG/zh_CN
+
+#50度灰解锁VIP无限看
+#下载地址
+#http://club.i50dh.net/chan/h50269/G5yU
+^http:\/\/(.+)\.fiftymvapi\.(.+):8080\/api\.php\/api\/.+ header-replace Cookie __cfduid=d92360490b14c409b14c785add28ca87f1618378333
+^https:\/\/m3u8\.91-tv\.me\/.+ header-replace Cookie __cfduid=d92360490b14c409b14c785add28ca87f1618378333
+
+#涩里番VIP视频无限看
+#下载地址
+#https://slf506.com?_s=XELGEF
+^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ header-replace token 90d44e34f308d1cb9a538fd4c3d0ca0e
+^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ header-replace uid 3092806
+
+#丝瓜解锁VIP视频无限看
+#下载地址
+#https://sigua001.com?_s=KKLADF
+^http:\/\/(api-01|api)\.(sssggg666|zjooooo888)\.com:8089\/cxapi\/.+ header-replace token fbee5bc861f17d7e1ef5530d3cfc458a
+^http:\/\/(api-01|api)\.(sssggg666|zjooooo888)\.com:8089\/cxapi\/.+ header-replace uid 6972841
+
+#AV波波
+^https:\/\/s\.(.+)\.com\/s2\/.+ url header-replace login_token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoic21hbGwtMDFiZTVmNTk2MmQ0NDA3NTkzMWNkMTMyNWJiMjc5NTgiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTYyOTQwMjAzMSwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.8GJCk5e_7dV8mq3ddaRBobzjAzBC7muJznLCf_jxLuA
+
+#三更视频
+#下载地址：https://blwtgwe.cn/5858489?tmp=dy&dir=0
+^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+ header-replace seq B08EA77B-D13C-4977-B420-A613A1149783
+^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+ header-replace token eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyXzU4NTg0ODkiLCJleHAiOjE5MzI4MDU4NzN9._OMLgq-wKEpXwI9t1WJBX_-Pn9aIskrxjoVZo6zXAGY5xbklc6RUd7skCdadyhAMzsKZCmtLm2FxFgHrXoZg7w
+^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+ header-replace User-Agent FourInOne/3.3.3 (iPhone; iOS 13.5; Scale/2.00)
+
+#快撸解锁会员无限看
+#下载地址：https://klicqi.xyz?p=VSG36N
+^https:\/\/apki\.(.+)\.me header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1MTA5MTA5IiwiaXNzIjoiIiwiaWF0IjoxNjE5NzYzMDkyLCJuYmYiOjE2MTk3NjMwOTIsImV4cCI6MTc3NzQ0MzA5Mn0.aVf3m_oydsIXgZHWX-A5S5U6YWsIPgk-Xoj8UXy9MIw
+
+#蜜桃解锁VIP无限看
+#下载地址
+#https://mtlebh.xyz?p=Q7HB6L
+^https:\/\/mtapp\.(.+)\.me\/api\/.+  header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMDA5MTY0NyIsImlzcyI6IiIsImlhdCI6MTYyNDQ2Mzg2OSwibmJmIjoxNjI0NDYzODY5LCJleHAiOjE3ODIxNDM4Njl9.Gf83VLiHQp76BHnugzks3dJbv8uFmSGW9d-fb4Pq3Jg
+
+#91桃色解锁VIP无限看
+#下载地址
+#https://tsmanu.xyz?p=C4GSB1
+^https:\/\/avapp\.calvapi\w\.me\/api\/.+ header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzA2NTE0MiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTQ1OSwibmJmIjoxNjE4NTg1NDU5LCJleHAiOjE3NzYyNjU0NTl9.t2q_pRxo1KN676bK77syjJNxOaHmCFK4AVEC0SdohC8
+
+#陌陌视频解锁VIP无限看
+#下载地址
+#https://mmxbpr.xyz?p=VOD9J6
+^https:\/\/api\.(bdawnvr|moapi1|moapi)\.(xyz|club|site|online)\/api\/.+  header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzMzE5MDM0IiwiaXNzIjoiIiwiaWF0IjoxNjE4NTg3NjE4LCJuYmYiOjE2MTg1ODc2MTgsImV4cCI6MTc3NjI2NzYxOH0.hF3I7ONOVWUUu8N3CzH-qXzqbMFJA6QXMshilciWpWk
+
+#草榴短视频解锁VIP无限看
+#下载地址
+#https://sppsge.xyz?p=OG8LDJ
+^https:\/\/app\.(.+)\.me\/api\/.+ header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjQ1MzA5NiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTc2OSwibmJmIjoxNjE4NTg1NzY5LCJleHAiOjE3NzYyNjU3Njl9.NvngndWmUawhDMllxDQKEmG1WUwyrkPnasztVOL088o
+
+#丁丁解锁VIP无限看
+#下载地址
+#https://dd472dhgs.vsrbxv.online/wsh4689.html?pkg=dd0001&inviteCode=CKWUEL
+^https:\/\/ddapp\.cukeindia\.work\/.+ header-replace  Authorization
+0533489780da4e3b3bda6d77a75d63b24ceeb883f9256a1502a247e3e19a54bbb8311867e12d82e387
+
+#雪梨解锁VIP无限看
+#下载地址
+#http://15mjk62.live/?code=Z99CVJ&channel=poster
+^https:\/\/app\.pear--app\.com\/api\/app\/.+ header-replace token  521d389499f111ebbf4e82d5981aa92e
+
+#91视频解锁VIP无限看
+#下载地址
+#https://app.uzlb.xyz/i-SR94P7
+#https://app.1zp8.xyz/i-SR94P7
+^https:\/\/(app|api)\.(qdjdswkj|rcljx|qishangzs|jisudaigou)\.com  header-replace X-AUTH-TOKEN eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMTk4NTkyNiwiZXhwIjoxOTM3MzQ1OTI2fQ.eyJpZCI6NDEzODUyMzN9.H57hPEuobymyLn8S55fworMnGWFATsoIv8361G160vAj6vsRONGUzF625B_r4IckGD5mXDW3e4GErz9l0M7Mqg
+
+#JAV
+^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play header-replace authorization "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI"
+
+[Script]
+#百丽宫解锁VIP
+#下载地址：https://hkj.lanzous.com/ie7zAnexo2b 
+#网页版：http://1.blg579.xyz
+百丽宫解锁VIP = type=http-response,pattern=http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index),requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/blg.js
+
+#酷我音乐SVIP会员
+酷我音乐SVIP会员= type=http-response,pattern= ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path= http://musicpay.kuwo.cn/music.pay?uid=2
+
+#咪哩视频
+#下载地址：http://69n1.cn 
+# http://neihan4871.com
+咪哩视频= type=http-response,pattern= ^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play) ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/mlsp.js
+
+#独品社区解锁会员
+#下载地址：（任意号注册不限制，不收验证码）（邀请码：K4GPHE）
+#https://wws.lanzous.com/s/seyou01 
+#https://wws.lanzous.com/s/seyou02
+独品社区解锁会员= type=http-response,pattern= ^http:\/\/lfwmkj\.com\/(api\/user\/personal|api\/community\/edit) ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/dpsq.js
+
+#菠萝视频解锁无限看
+#下载地址：https://aff.polomv.com/af/edrJ
+菠萝视频解锁无限看 = type=http-response,pattern= ^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/blsp.js
+
+#辣椒解锁会员去广告
+#下载地址：http://v.sj6.live/?code=S48DGK
+辣椒解锁会员去广告 = type=http-response,pattern= ^https:\/\/(api|new)\.zzyyhyy\.cn\/api\/.+ ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/lajiao.js
+
+#新春水解锁无限看
+#下载地址：
+#https://tm9ji.com/share?code=7K5W8
+新春水解锁无限看 = type=http-response,pattern= ^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/user\/profile\/ ,requires-body=1,max-size=0,script-path=  https://6678888.xyz/quantumultX/xincs.js
+
+#50度灰解锁VIP无限看
+#下载地址
+#http://club.i50dh.net/chan/h50269/G5yU
+50度灰解锁VIP无限看2= type=http-response,pattern= ^http:\/\/(.+)\.fiftymvapi\.(.+):8080\/api\.php\/api\/user\/userinfo,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/50du.js
+
+#葫芦娃解锁VIP无限看
+#葫芦娃下载地址
+#http://share.5heocbzxjnui.space/api/open/video/share/default.html?a=uv6c9m&b=1&t=0hiyom
+葫芦娃解锁VIP无限看= type=http-response,pattern= ^https:\/\/stat\.liquidlink\.cn\/api\/v2\/ios\/(.+)\/stats\/events ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/huluwa.js
+
+#麻豆短视频解锁会员和付费
+#下载地址无需注册
+#https://mdsv01.com/?pc=5e339d60-7605-4ccc-bfb9-68bf84f784b7
+麻豆短视频解锁会员= type=http-response,pattern= ^https:\/\/mda\..+\.site\/api\/(auth\/login|mine\/myHome|wallet\/query) ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/mddsp.js
+
+#Pear解锁会员无限看
+#下载地址
+#https://www.pears.live?ivcode=DUJ7&t=20210504
+Pear解锁会员无限看= type=http-response,pattern= ^https:\/\/(cn.youku-ca.com|bkcd\.b-cdn.net|souhu.mett.me|m.pearkin.com|www.baidu.com2.club)\/(api\/movie\/WatchMovieNew|api\/account\/IsVip|api\/account\/IndexDetail) ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/pear.js
+
+#啪啪解锁视频无限看
+#下载地址邀请码：PWTIHQ
+#http://uarnu.com/l1Uo0w4?icode=PWTIHQ
+啪啪解锁视频无限看 = type=http-response,pattern= ^https:\/\/api\.papa\w+\.com(\/video\/api\/movie\/v2\/(play|[0-9]+)|\/video\/api\/movie\/v2\/cache) ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/papa.js
+
+
+#69视频解锁会员无限看
+#下载地址
+#http://app.winzetta.cn/?code=692SSG
+69视频解锁会员无限看 = type=http-response,pattern= ^http:\/\/api\.winzetta\.cn\/api\/user\/personal ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/69sp.js
+
+#蕾丝解锁VIP会员无限看
+#下载地址
+#http://www.lssp4.xyz
+蕾丝解锁VIP会员无限看= type=http-response,pattern= ^http:\/\/kfjdmjg\.com\/api\/v2\/user ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/leisi.js
+
+#探探解锁会员无限看
+#网页版
+#http://iykhb.xyz?uid=r8meotq9
+探探解锁会员无限看1= type=http-response,pattern= ^http:\/\/iykhb\.xyz:8080\/tantan\/mobile\/tantan\/user\/login ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/tantan.js
+
+#JAV解锁VIP会员
+#下载地址：（注册填写邀请码：s8rvea）
+#https://jcapnred.com/?source=s8rvea
+#JAV解锁付费 =type=http-response,pattern= ^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play  ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/javdba.js
+JAV解锁VIP会员 =type=http-response,pattern=^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/users,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/javdba.js
+
+#加藤视频VIP付费无限看
+#下载地址
+#https://www.sanminnongye.com/?invitationCode=UG3P2H
+加藤视频VIP付费无限看 = type=http-response,pattern= ^https:\/\/api\.jttv.*?\.cc\/(shorter\/user.*?|shorter\/video\/home.*?),requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/jiateng.js
+
+#神话解锁会员
+#下载地址（任意手机号注册即可）
+#https://shzb.live
+神话= = type=http-response,pattern= ^https:\/\/shapi\.ysqhds\.com\/api\/video\/user\/data,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/shenhuatc.js
+
+[MITM]
+hostname = %APPEND% api.txt2021.buzz,api.kaqcn.com,apki.*.me,1.blg*.xyz,vip1.kuwo.cn,awmattack.*.com,lfwmkj.com,api.myb6api.*:8080,jk.5apk.cn,s.*.com,api.jyjnsc.com,api.syclzg.cn,api.md-ddd1.com,api.hbytfdj.com,api.md-ddd2.com,api.md-ddd3.com,api.md-ddd4.com,2-api.yousuilife.com,api.sumsun.top,api.klettdayeare.com,api.kjregister.com,api-01.sssggg666.com:8089,api-01.apiselifan11.com,api.fiftymvapi.com:8080,m3u8.91-tv.me,api50.fiftymvapi.com:8080,*.fiftymvapi.*:8080,1008610010.laikanshu.top,mtapp.*.me,avapp.*.me,app.*.me,api.bdawnvr.xyz,api.moapi1.club,api.moapi.site,api.moapi1.online,apic.*.me,ddapp.cukeindia.work,slb.djshow.cn,api-hlw.*.com,2-api.xiaoxi37.com,stat.liquidlink.cn,api.zjooooo888.com:8089,wx.voxpie.com,app.qdjdswkj.com,api.rcljx.com,mda.*.site,buy.itunes.apple.com,app.pear--app.com,bkcd.b-cdn.net,cn.youku-ca.com,api.revenuecat.com,*.zyapp.xyz,apid.duorelie.com,apid.jsjaydl.com,api.shimada-dl.com,ipa.angtrend.com,apit.sbxsjw.com,api.cxlwhz.com,api.jisudaigou.com,data.flurry.com,api.zzyyhyy.cn,api.papa???.com,www.t1ir6.vip,api50w.shltezb.com,api.winzetta.cn,app.ap.d3yuiw4.com,api1000.dindang18.com,kfjdmjg.com,iykhb.xyz:8080,yugedu.com,www.winnerbook.com.cn,xinshengcomunity.com,mmt.maimaitom.com,*.kuaihuoapi.com,api.shanzhili.net,jiuyuly.com,api_2496.kuwo.cn,biubiucloud.com,api.flctkc.com,api.qhbsxxkj.com,api.lu2.asia,api.meirigengxin.com,api.zgjizhi.com,streamf.*.com,api.v1.chuniao.me,biubiucloud.com.api.*.cc,api.jttv01.cc,api.jttv02.cc,api.ojbk123.com,api.cqmingmohui.com,shapi.ysqhds.com,new.zzyyhyy.cn,lanm.huliyinzi.com,pask.bozhenshu.cn,api-as.leavon.cn,qa666.xyz,www.govchengdu.cn,aig.aigzg.com,pv.dakawm.cc,www.govxian.cn

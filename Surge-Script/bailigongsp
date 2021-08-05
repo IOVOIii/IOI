@@ -1,16 +1,12 @@
 /*
 
 [rewrite_local]
-#鐧句附瀹В閿乂IP
 ^http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index) url script-response-body https://6678888.xyz/quantumultX/blg.js
 
 [mitm]
 hostname = 1.blg\d{3}.xyz
-
-涓嬭浇鍦板潃锛氾紙闇€鑷鎴栬秺鐙憋級
+下载地址
 https://hkj.lanzous.com/ie7zAnexo2b
-
-缃戦〉鐗堬細锛堟棤璇佷功鍙娇鐢ㄧ綉椤电増锛�
 http://1.blg579.xyz
 
 */

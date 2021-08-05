@@ -51,6 +51,10 @@
 #我的界面-无限观看-中间输入邀请码：IN7719862)
 #https://in14.xyz
 ^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
+
+#JAV
+^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play head-replace authorization:.+ Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI
+
 [Script]
 #三更解锁VIP无限看
 #下载地址：https://blwtgwe.cn/5858489?tmp=dy&dir=0
@@ -58,7 +62,7 @@
 三更解锁VIP无限看 = type=http-response,pattern= http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+,  requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/sangeng.js
 
 #百丽宫解锁VIP
-#下载地址：https://hkj.lanzous.com/ie7zAnexo2b
+#下载地址：https://hkj.lanzous.com/ie7zAnexo2b 
 #网页版：http://1.blg579.xyz
 百丽宫解锁VIP = type=http-response,pattern=http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index),requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/blg.js
 

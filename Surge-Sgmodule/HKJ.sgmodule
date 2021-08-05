@@ -1,5 +1,11 @@
 #!name=黑科技打造福利合集
 [URL Rewrite]
+#快活视频去广告
+#下载地址
+#https://khsp.vip
+^https:\/\/*\.kuaihuoapi\.com\/appApi\/getPubConfig - reject
+^https:\/\/mmt\.maimaitom\.com\/assets\/adlist\/.+ - reject
+
 #啪啪解锁视频无限看
 #下载地址邀请码：PWTIHQ
 #http://uarnu.com/l1Uo0w4?icode=PWTIHQ

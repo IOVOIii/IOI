@@ -2,38 +2,38 @@
 [URL Rewrite]
 #快撸解锁会员无限看
 #下载地址：https://klicqi.xyz?p=VSG36N
-^https:\/\/apki\.(.+)\.me header-replace Authorization:.+ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1MTA5MTA5IiwiaXNzIjoiIiwiaWF0IjoxNjE5NzYzMDkyLCJuYmYiOjE2MTk3NjMwOTIsImV4cCI6MTc3NzQ0MzA5Mn0.aVf3m_oydsIXgZHWX-A5S5U6YWsIPgk-Xoj8UXy9MIw
+^https:\/\/apki\.(.+)\.me header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1MTA5MTA5IiwiaXNzIjoiIiwiaWF0IjoxNjE5NzYzMDkyLCJuYmYiOjE2MTk3NjMwOTIsImV4cCI6MTc3NzQ0MzA5Mn0.aVf3m_oydsIXgZHWX-A5S5U6YWsIPgk-Xoj8UXy9MIw
 
 #蜜桃解锁VIP无限看
 #下载地址
 #https://mtlebh.xyz?p=Q7HB6L
-^https:\/\/mtapp\.(.+)\.me\/api\/.+  header-replace  Authorization:.+ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMDA5MTY0NyIsImlzcyI6IiIsImlhdCI6MTYyNDQ2Mzg2OSwibmJmIjoxNjI0NDYzODY5LCJleHAiOjE3ODIxNDM4Njl9.Gf83VLiHQp76BHnugzks3dJbv8uFmSGW9d-fb4Pq3Jg
+^https:\/\/mtapp\.(.+)\.me\/api\/.+  header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMDA5MTY0NyIsImlzcyI6IiIsImlhdCI6MTYyNDQ2Mzg2OSwibmJmIjoxNjI0NDYzODY5LCJleHAiOjE3ODIxNDM4Njl9.Gf83VLiHQp76BHnugzks3dJbv8uFmSGW9d-fb4Pq3Jg
 
 #91桃色解锁VIP无限看
 #下载地址
 #https://tsmanu.xyz?p=C4GSB1
-^https:\/\/avapp\.calvapi\w\.me\/api\/.+ header-replace  Authorization:.+ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzA2NTE0MiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTQ1OSwibmJmIjoxNjE4NTg1NDU5LCJleHAiOjE3NzYyNjU0NTl9.t2q_pRxo1KN676bK77syjJNxOaHmCFK4AVEC0SdohC8
+^https:\/\/avapp\.calvapi\w\.me\/api\/.+ header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzA2NTE0MiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTQ1OSwibmJmIjoxNjE4NTg1NDU5LCJleHAiOjE3NzYyNjU0NTl9.t2q_pRxo1KN676bK77syjJNxOaHmCFK4AVEC0SdohC8
 
 #陌陌视频解锁VIP无限看
 #下载地址
 #https://mmxbpr.xyz?p=VOD9J6
-^https:\/\/api\.(bdawnvr|moapi1|moapi)\.(xyz|club|site|online)\/api\/.+  header-replace Authorization:.+ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzMzE5MDM0IiwiaXNzIjoiIiwiaWF0IjoxNjE4NTg3NjE4LCJuYmYiOjE2MTg1ODc2MTgsImV4cCI6MTc3NjI2NzYxOH0.hF3I7ONOVWUUu8N3CzH-qXzqbMFJA6QXMshilciWpWk
+^https:\/\/api\.(bdawnvr|moapi1|moapi)\.(xyz|club|site|online)\/api\/.+  header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzMzE5MDM0IiwiaXNzIjoiIiwiaWF0IjoxNjE4NTg3NjE4LCJuYmYiOjE2MTg1ODc2MTgsImV4cCI6MTc3NjI2NzYxOH0.hF3I7ONOVWUUu8N3CzH-qXzqbMFJA6QXMshilciWpWk
 
 #草榴短视频解锁VIP无限看
 #下载地址
 #https://sppsge.xyz?p=OG8LDJ
-^https:\/\/app\.(.+)\.me\/api\/.+ header-replace  Authorization:.+ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjQ1MzA5NiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTc2OSwibmJmIjoxNjE4NTg1NzY5LCJleHAiOjE3NzYyNjU3Njl9.NvngndWmUawhDMllxDQKEmG1WUwyrkPnasztVOL088o
+^https:\/\/app\.(.+)\.me\/api\/.+ header-replace  Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjQ1MzA5NiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTc2OSwibmJmIjoxNjE4NTg1NzY5LCJleHAiOjE3NzYyNjU3Njl9.NvngndWmUawhDMllxDQKEmG1WUwyrkPnasztVOL088o
 
 #丁丁解锁VIP无限看
 #下载地址
 #https://dd472dhgs.vsrbxv.online/wsh4689.html?pkg=dd0001&inviteCode=CKWUEL
-^https:\/\/ddapp\.cukeindia\.work\/.+ header-replace  Authorization:.+
+^https:\/\/ddapp\.cukeindia\.work\/.+ header-replace  Authorization
 0533489780da4e3b3bda6d77a75d63b24ceeb883f9256a1502a247e3e19a54bbb8311867e12d82e387
 
 #雪梨解锁VIP无限看
 #下载地址
 #http://15mjk62.live/?code=Z99CVJ&channel=poster
-^https:\/\/app\.pear--app\.com\/api\/app\/.+ header-replace token:.+  521d389499f111ebbf4e82d5981aa92e
+^https:\/\/app\.pear--app\.com\/api\/app\/.+ header-replace token  521d389499f111ebbf4e82d5981aa92e
 
 #健康解锁VIP无限看
 #下载地址邀请码：JK8488151
@@ -44,7 +44,7 @@
 #下载地址
 #https://app.uzlb.xyz/i-SR94P7
 #https://app.1zp8.xyz/i-SR94P7
-^https:\/\/(app|api)\.(qdjdswkj|rcljx|qishangzs|jisudaigou)\.com  header-replace X-AUTH-TOKEN:.+ eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMTk4NTkyNiwiZXhwIjoxOTM3MzQ1OTI2fQ.eyJpZCI6NDEzODUyMzN9.H57hPEuobymyLn8S55fworMnGWFATsoIv8361G160vAj6vsRONGUzF625B_r4IckGD5mXDW3e4GErz9l0M7Mqg
+^https:\/\/(app|api)\.(qdjdswkj|rcljx|qishangzs|jisudaigou)\.com  header-replace X-AUTH-TOKEN eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMTk4NTkyNiwiZXhwIjoxOTM3MzQ1OTI2fQ.eyJpZCI6NDEzODUyMzN9.H57hPEuobymyLn8S55fworMnGWFATsoIv8361G160vAj6vsRONGUzF625B_r4IckGD5mXDW3e4GErz9l0M7Mqg
 
 #硬汉解锁VIP无限看
 #下载地址（任意邮箱注册，务必注册一下，延长会员时间
@@ -53,7 +53,7 @@
 ^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
 
 #JAV
-^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play header-replace authorization:.+ Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI
+^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play header-replace authorization "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI"
 
 [Script]
 #三更解锁VIP无限看
@@ -94,7 +94,7 @@
 #https://see-mybb-6.com/webApp/root/static/AppTabView/screen/static/OfficialShareView?code=6BILKPMKOYW
 #https://caoni-99.com/webApp/root/static/AppTabView/screen/static/OfficialShareView?code=6BILKPMKOYW
 AV波波解锁VIP无限看= type=http-response,pattern=  ^https:\/\/s\.(.+)\.com\/s2\/.+  ,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/avbb.js
-^https:\/\/s\.(.+)\.com\/s2\/.+ url header-replace login_token:.+  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoic21hbGwtMDFiZTVmNTk2MmQ0NDA3NTkzMWNkMTMyNWJiMjc5NTgiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTYyOTQwMjAzMSwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.8GJCk5e_7dV8mq3ddaRBobzjAzBC7muJznLCf_jxLuA
+^https:\/\/s\.(.+)\.com\/s2\/.+ url header-replace login_token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoic21hbGwtMDFiZTVmNTk2MmQ0NDA3NTkzMWNkMTMyNWJiMjc5NTgiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTYyOTQwMjAzMSwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.8GJCk5e_7dV8mq3ddaRBobzjAzBC7muJznLCf_jxLuA
 
 #LUTU解锁VIP无限看
 #下载地址：

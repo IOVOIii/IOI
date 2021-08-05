@@ -33,7 +33,7 @@ if (url.indexOf(p2) != -1) {
 if (url.indexOf(p3) != -1) {
     obj.data.member.is_vip = 1,
     obj.data.member.vip_date = "2099-09-09",
-    obj.data.member.nick_name = "ios榛戠鎶€",
+    obj.data.member.nick_name = "IOVOI",
     obj.data.member.level_id = 6,
     body = JSON.stringify(obj);
 } 

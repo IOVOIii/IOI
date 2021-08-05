@@ -1,0 +1,30 @@
+let obj=JSON.parse($response.body);
+if($request.url.indexOf("shorter/user/homePageExt")!=-1)
+{
+  obj.data.userVip=1;
+  obj.data.expiredTime=4092647115000;
+  obj.data.playMaxCount=999;
+}
+if($request.url.indexOf("shorter/user/homePage")!=-1)
+{
+  obj.data.myUserRespVo={
+      "id": 493796,
+      "isShow": 0,
+      "userVip": 1,
+      "headImage": "",
+      "age": 0,
+      "cityName": "",
+      "expiredTime": 4092647115000,
+      "isProducer": 0,
+      "sex": 999,
+      "uniqueId": 71493796,
+      "blackId": 0,
+      "birthday": 0,
+      "icon": "999",
+      "nickname": "IOVOI",
+      "cityId": 0,
+      "grade": 5,
+      "remarks": ""
+    };
+}
+$done({body:JSON.stringify(obj)});

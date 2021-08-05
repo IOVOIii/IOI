@@ -11,9 +11,8 @@ http://69n1.cn
 http://neihan4871.com
 
 */
-var body = $response.body;
 var url = $request.url;
-var obj = JSON.parse(body);
+var obj = JSON.parse($response.body);
 
 const a = '/api/member/info';
 const b = '/api/video/video/video_play';

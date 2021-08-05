@@ -1,0 +1,9 @@
+[Script]
+http-response ^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play requires-body=1,max-size=0,script-path= 
+
+[mitm]
+hostname = yugedu.com
+
+let obj = JSON.parse($response.body);
+obj.success=1;
+$done({body: JSON.stringify(obj)});

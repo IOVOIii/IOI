@@ -1,10 +1,5 @@
 #!name=黑科技打造福利合集
 [URL Rewrite]
-#QA666
-^http[s]?:\/\/qa666\.xyz\/u url - reject
-^http[s]?:\/\/qa666\.xyz\/ul -  reject
-^http[s]?:\/\/qa666\.xyz\/(u|ul)  https://qa666.xyz?tg=1959655 302
-
 #加藤视频
 ^https:\/\/api\..+\.cc\/shorter\/resource\/getStartPageList - reject
 

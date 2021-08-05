@@ -1,5 +1,5 @@
 #!name=黑科技打造福利合集
-[URL Rewrite]
+[Header Rewrite]
 #快撸解锁会员无限看
 #下载地址：https://klicqi.xyz?p=VSG36N
 ^https:\/\/apki\.(.+)\.me header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1MTA5MTA5IiwiaXNzIjoiIiwiaWF0IjoxNjE5NzYzMDkyLCJuYmYiOjE2MTk3NjMwOTIsImV4cCI6MTc3NzQ0MzA5Mn0.aVf3m_oydsIXgZHWX-A5S5U6YWsIPgk-Xoj8UXy9MIw

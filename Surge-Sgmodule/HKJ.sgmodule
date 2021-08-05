@@ -31,6 +31,12 @@
 ^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
 
 [Header Rewrite]
+#丝瓜解锁VIP视频无限看
+#下载地址
+#https://sigua001.com?_s=KKLADF
+^http:\/\/(api-01|api)\.(sssggg666|zjooooo888)\.com:8089\/cxapi\/.+ header-replace token fbee5bc861f17d7e1ef5530d3cfc458a
+^http:\/\/(api-01|api)\.(sssggg666|zjooooo888)\.com:8089\/cxapi\/.+ header-replace uid 6972841
+
 #AV波波
 ^https:\/\/s\.(.+)\.com\/s2\/.+ url header-replace login_token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoic21hbGwtMDFiZTVmNTk2MmQ0NDA3NTkzMWNkMTMyNWJiMjc5NTgiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTYyOTQwMjAzMSwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.8GJCk5e_7dV8mq3ddaRBobzjAzBC7muJznLCf_jxLuA
 
@@ -132,11 +138,6 @@ LUTU解锁VIP无限看 = type=http-response,pattern= ^https:\/\/api\.(jyjnsc|syc
 #下载地址：
 #https://tm9ji.com/share?code=7K5W8
 新春水解锁无限看 = type=http-response,pattern= ^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/user\/profile\/ ,requires-body=1,max-size=0,script-path=  https://6678888.xyz/quantumultX/xincs.js
-
-#丝瓜解锁VIP视频无限看
-#下载地址
-#https://sigua001.com?_s=KKLADF
-丝瓜解锁VIP视频无限看= type=http-response,pattern= ^http:\/\/(api-01|api)\.(sssggg666|zjooooo888)\.com:8089\/cxapi\/.+,requires-body=1,max-size=0,script-path= https://6678888.xyz/quantumultX/sigua.js
 
 #涩里番VIP视频无限看
 #下载地址

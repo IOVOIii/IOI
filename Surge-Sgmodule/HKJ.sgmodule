@@ -30,13 +30,7 @@
 #下载地址：
 #https://s-lutu.me
 #请注册填写邀请码：UDANQ4D，延续VIP时间！
-^https:\/\/api\.(jyjnsc|syclzg|shanzhili|flctkc|qhbsxxkj|lu2)\.(cn|com|net|asia)\/.+ header-replace Authorization Bearer e6EgBP-lexmTYa9xy8xqWb9QXcnHauNu61OXoqVfJZygFuJ85vfoq3zL6BO2-CZ6JKZmisBjC_dS-P2zx7OtKDAOOvZ9fFLbIBDO0ymSB0o
-
-#LUTU解锁VIP无限看
-#下载地址：
-#https://s-lutu.me
-#请注册填写邀请码：UDANQ4D，延续VIP时间！
-LUTU解锁VIP无限看 = type=http-response,pattern= ^https:\/\/api\.(jyjnsc|syclzg|shanzhili|flctkc|qhbsxxkj|lu2)\.(cn|com|net|asia)\/.+,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/LUTUsp
+^https:\/\/api\.(jyjnsc|syclzg|shanzhili|flctkc|qhbsxxkj|lu2)\.(cn|com|net|asia)\/.+ header-replace Authorization "Bearer e6EgBP-lexmTYa9xy8xqWb9QXcnHauNu61OXoqVfJZygFuJ85vfoq3zL6BO2-CZ6JKZmisBjC_dS-P2zx7OtKDAOOvZ9fFLbIBDO0ymSB0o"
 
 #TIT解锁VIP无限看
 #tit下载地址

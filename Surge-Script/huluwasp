@@ -1,10 +1,6 @@
 /*
-寰俊鍏紬鍙凤細ios榛戠鎶€
-瀹樻柟缃戠珯锛歴7aa.cn
-
 QX:
 [rewrite_local]
-#钁姦濞冭В閿�
 ^https:\/\/stat\.liquidlink\.cn\/api\/v2\/ios\/jzddfv\/stats\/events url script-response-body hlwa.js
 
 [mitm]

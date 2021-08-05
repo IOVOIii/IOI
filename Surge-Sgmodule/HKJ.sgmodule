@@ -53,7 +53,7 @@
 ^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
 
 #JAV
-^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play head-replace authorization:.+ Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI
+^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play header-replace authorization:.+ Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI
 
 [Script]
 #三更解锁VIP无限看

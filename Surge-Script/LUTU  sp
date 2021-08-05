@@ -1,0 +1,18 @@
+/*
+[rewrite_local]
+
+#LUTU
+^https:\/\/api\.(.+)\.(cn|com)\/.+  url script-request-header lutu.js
+
+[mitm]
+hostname = api.jyjnsc.com,api.syclzg.cn
+下载地址
+https://s-lutu.me
+*/
+
+var modifiedHeaders = $request.headers;
+
+modifiedHeaders['Authorization'] = 'Bearer e6EgBP-lexmTYa9xy8xqWb9QXcnHauNu61OXoqVfJZygFuJ85vfoq3zL6BO2-CZ6JKZmisBjC_dS-P2zx7OtKDAOOvZ9fFLbIBDO0ymSB0o';
+
+
+$done({headers : modifiedHeaders});

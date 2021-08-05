@@ -1,16 +1,12 @@
 /*
-寰俊鍏紬鍙凤細ios榛戠鎶€
-瀹樻柟缃戠珯锛歴7aa.cn
 
-QX:
 [rewrite_local]
 
-#鑿犺悵瑙嗛瑙ｉ攣鏃犻檺鐪�
 ^http:\/\/api\.myb6api\.(com|org):8080\/api\.php\/api\/users\/getBaseInfo url script-response-body https://6678888.xyz/quantumultX/blsp.js
 [mitm]
 hostname = api.myb6api.com:8080,api.myb6api.org:8080
 
-鑿犺悵瑙嗛涓嬭浇鍦板潃锛�
+下载地址
 https://aff.polomv.com/af/edrJ
 
 */

@@ -163,7 +163,7 @@ LUTU解锁VIP无限看 = type=http-response,pattern= ^https:\/\/api\.(jyjnsc|syc
 #50度灰解锁VIP无限看
 #下载地址
 #http://club.i50dh.net/chan/h50269/G5yU
-50度灰解锁VIP无限看2= type=http-response,pattern= ^http:\/\/(.+)\.fiftymvapi\.(.+):8080\/api\.php\/api\/user\/userinfo,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/50duheisp
+50度灰解锁VIP无限看= type=http-response,pattern= ^http:\/\/(.+)\.fiftymvapi\.(.+):8080\/api\.php\/api\/user\/userinfo,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/50duheisp
 
 #葫芦娃解锁VIP无限看
 #葫芦娃下载地址
@@ -200,7 +200,7 @@ Pear解锁会员无限看= type=http-response,pattern= ^https:\/\/(cn.youku-ca.c
 #探探解锁会员无限看
 #网页版
 #http://iykhb.xyz?uid=r8meotq9
-探探解锁会员无限看1= type=http-response,pattern= ^http:\/\/iykhb\.xyz:8080\/tantan\/mobile\/tantan\/user\/login ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/tantansp
+探探解锁会员无限看= type=http-response,pattern= ^http:\/\/iykhb\.xyz:8080\/tantan\/mobile\/tantan\/user\/login ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/tantansp
 
 #JAV解锁VIP会员
 #下载地址：（注册填写邀请码：s8rvea）

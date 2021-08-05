@@ -1,5 +1,10 @@
 #!name=黑科技打造福利合集
 [URL Rewrite]
+#啪啪解锁视频无限看
+#下载地址邀请码：PWTIHQ
+#http://uarnu.com/l1Uo0w4?icode=PWTIHQ
+^https:\/\/api\.papa\w+\.com\/live\/api\/home\/announcement\/v1\/list - reject
+
 #加藤视频
 ^https:\/\/api\..+\.cc\/shorter\/resource\/getStartPageList - reject
 
@@ -174,6 +179,12 @@
 #下载地址
 #https://www.pears.live?ivcode=DUJ7&t=20210504
 Pear解锁会员无限看= type=http-response,pattern= ^https:\/\/(cn.youku-ca.com|bkcd\.b-cdn.net|souhu.mett.me|m.pearkin.com|www.baidu.com2.club)\/(api\/movie\/WatchMovieNew|api\/account\/IsVip|api\/account\/IndexDetail) ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/pearsp
+
+#啪啪解锁视频无限看
+#下载地址邀请码：PWTIHQ
+#http://uarnu.com/l1Uo0w4?icode=PWTIHQ
+啪啪解锁视频无限看= type=http-response,pattern= ^https:\/\/api\.papa\w+\.com(\/video\/api\/movie\/v2\/(play|[0-9]+)|\/video\/api\/movie\/v2\/cache) ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/papasp
+啪啪解锁付费= type=http-response,pattern= ^https:\/\/www\.t1ir6\.vip\/api\/site\/group\/member\/mobileEnd\/v1\/ioBuryingPoint ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/papaspfu
 
 #啪哩啪哩解锁视频无限看
 #下载地址邀请码：PWTIHQ

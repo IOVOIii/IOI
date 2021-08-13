@@ -9,7 +9,7 @@ http-response https?:\/\/.*\.*apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/
 
 [MITM]
 hostname = %APPEND% *.*apps.com
-*\
+*/
 var obj = JSON.parse($response.body);
 if ($request.url.indexOf("/ucp/index") != -1){
 obj.data.uinfo.down_daily_remainders = "999";

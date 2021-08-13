@@ -1,7 +1,0 @@
-#!name=JAV
-[Header Rewrite]
-
-^https:\/\/(yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud)\.com\/api\/v1\/movies\/(.+)\/play header-replace authorization "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OTgwNDk5LCJ1c2VybmFtZSI6Imlvc2hrajEifQ.0lMg96NyeqTl6hJBcRAGlFynaW_GxUaV4iozIPpaJSI"
-
-[MITM]
-hostname = yugedu.com, biubiucloud.com:443

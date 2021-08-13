@@ -1,4 +1,4 @@
-Surge4:
+/*Surge4:
 直接复制下面内容新建本地模块
 
 [Header Rewrite]
@@ -9,7 +9,7 @@ http-response https?:\/\/.*\.*apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/
 
 [MITM]
 hostname = %APPEND% *.*apps.com
-
+*\
 var obj = JSON.parse($response.body);
 if ($request.url.indexOf("/ucp/index") != -1){
 obj.data.uinfo.down_daily_remainders = "999";

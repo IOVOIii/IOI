@@ -386,7 +386,6 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 ^https?:\/\/saad\.ms\.zhangyue\.net\/ad - reject
 
 
-
 [Header Rewrite]
 #香蕉视频
 https:\/\/.*\.*apps\.com header-replace Cookie xxx_api_auth=6337396563633864643236616238336537633661343338646261393238363237

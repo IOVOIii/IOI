@@ -417,6 +417,9 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 ^https:\/\/.*\.*apps\.com header-replace Cookie xxx_api_auth=6337396563633864643236616238336537633661343338646261393238363237
 
 [Script]
+#Surge-template
+
+Surge-template= type=http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/Surge-template,pattern=^https:\/\/IOVOI
 #菠萝视频解锁无限看
 #下载地址：https://aff.polomv.com/af/edrJ
 菠萝视频解锁无限看 = type=http-response,pattern= ^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/boluosp

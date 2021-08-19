@@ -1,0 +1,17 @@
+let obj=JSON.parse($response.body);
+if($request.url.indexOf("v1/user/info")!=-1)
+{
+  obj.response.level=2;
+}
+$done({body:JSON.stringify(obj)});
+
+var obj=eval("("+$response.body+")")
+if($request.url.indexOf("v1/user/info")!=-1)
+{
+  obj.response.level=2;
+}
+$done({body:JSON.stringify(obj)});
+
+var obj=$response.body;
+var obj=obj.replace(/flag\":\.*?/,'flag" : true');
+$done({body:obj});

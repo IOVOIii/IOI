@@ -418,16 +418,15 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 
 [Script]
 #Surge-template
-
-Surge-template= type=http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/Surge-template,pattern=^https:\/\/IOVOI
+Surge-template = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/Surge-template,pattern=^https:\/\/IOVOI
 #菠萝视频解锁无限看
 #下载地址：https://aff.polomv.com/af/edrJ
 菠萝视频解锁无限看 = type=http-response,pattern= ^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo ,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/boluosp
 #酷我音乐SVIP会员
-酷我音乐SVIP会员= type=http-response,pattern= ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/kuwomusic
-BiliBili_去广告 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/bilibili,pattern= ^https:\/\/(app|api|api.vc|api.live)\.bilibili\.com\/(x/v2/splash/list|x/v2/account/mine|x/resource/show/tab|x/v2/feed/index.*?|pgc/page/bangumi|xlive/app-room/v1/index/getInfoByRoom|dynamic_svr/v1/dynamic_svr/dynamic.*?)
-YouTube = type=http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://Choler.github.io/Surge/Script/YouTube.js
-香蕉视频 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/xjsp,pattern=https?:\/\/.*\.*apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/)
+酷我音乐SVIP会员 = type=http-response,pattern= ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/kuwomusic
+BiliBili_去广告 = type=http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/bilibili,pattern= ^https:\/\/(app|api|api.vc|api.live)\.bilibili\.com\/(x/v2/splash/list|x/v2/account/mine|x/resource/show/tab|x/v2/feed/index.*?|pgc/page/bangumi|xlive/app-room/v1/index/getInfoByRoom|dynamic_svr/v1/dynamic_svr/dynamic.*?)
+YouTube = type= http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path= https://Choler.github.io/Surge/Script/YouTube.js
+香蕉视频 = type= http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/xjsp,pattern=https?:\/\/.*\.*apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/)
 
 [Map Local]
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad data="https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Rule/WeChat.json"

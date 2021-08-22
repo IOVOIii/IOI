@@ -15,3 +15,11 @@ $done({body:JSON.stringify(obj)});
 var obj=$response.body;
 var obj=obj.replace(/flag\":\.*?/,'flag" : true');
 $done({body:obj});
+
+var obj=$response.body;
+var a="36aa8bb5b88a03d405bc1fd425d48a9feyJjb2RlIjowLCJtc2ciOiJzdWNjZXNzIiwiZGF0YSI6eyJsaXN0IjpbXX1936aa8bb5b88a03d405bc1fd425d48a9f";
+if($request.url.indexOf("member/index")!=-1)
+{
+  var obj=a;
+}
+$done({body:obj})

@@ -37,6 +37,12 @@
 ^https:\/\/(api|apid)\.(duorelie|jsjaydl|shimada-dl)\.com\/s1\/register\/uuid\/.+ https://api.shimada-dl.com/s1/register/uuid/24731E06-91AE-4CA6-92AB-FAD86F3E0926?key=ca0908d6672f9c9b1d03aed9b79b2f99e1ea33d025e78d0a644df2a8e341a956&lang=CN&model=iPhone&platform=ios&version=2.4.1 302
 
 [Header Rewrite]
+##知音视频解锁VIP无限看
+#下载地址
+#https://avmgbj.xyz?p=GQI2FU
+^https:\/\/(apic|avapp)\.(aoimi\w|clapi\w)\.me\/api\/.+ header-replace Authorization eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMTMzMTE5MyIsImlzcyI6IiIsImlhdCI6MTYyNDUwNzI0MiwibmJmIjoxNjI0NTA3MjQyLCJleHAiOjE3ODIxODcyNDJ9.0wc4S5QrmBwIjlyhCMJ2XfSryVNGVWYa94oX6bMAFfo
+^https:\/\/(apic|avapp)\.(aoimi\w|clapi\w)\.me\/api\/.+ header-replace deviceId Authorization:C9C9C651-7726-4DDA-9102-5E1465DE01C9
+
 #LUTU解锁VIP无限看
 #下载地址：
 #https://s-lutu.me

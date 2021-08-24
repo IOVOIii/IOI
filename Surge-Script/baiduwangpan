@@ -1,0 +1,78 @@
+var bod=$response.body;
+let obj=JSON.parse(bod);
+var a={
+    "current_value": 999999,
+    "current_level": 8,
+    "history_value": 999999,
+    "history_level": 8
+  };
+var b={
+    "cluster": "vip",
+    "detail_cluster": "svip",
+    "product_type": "vip2_1m_auto",
+    "expired_time": 9000000000
+  };
+var c=[{
+    "product_id": "5210897752128663390",
+    "start_time": 1629538495,
+    "end_time": 9000000000,
+    "buy_time": "1629538495",
+    "cluster": "offlinedl",
+    "detail_cluster": "svip",
+    "product_name": "svip2_nd",
+    "status": "0",
+    "function_num": 0,
+    "buy_description": "",
+    "product_description": ""
+  }, {
+    "product_id": "14040884078253912436",
+    "start_time": 1629538495,
+    "end_time": 9000000000,
+    "buy_time": "1629538495",
+    "cluster": "vip",
+    "detail_cluster": "svip",
+    "product_name": "svip2_nd",
+    "status": 0,
+    "function_num": 0,
+    "buy_description": "",
+    "product_description": ""
+  }];
+var d=[{
+    "type": 1,
+    "total_times": 99999,
+    "valid_times": 99999
+  }, {
+    "type": 2,
+    "total_times": 99999,
+    "valid_times": 99999
+  }];
+if($request.url.indexOf("rest/2.0/membership/user/info")!=-1)
+{
+  obj.user_info.is_vip=1;
+  obj.user_info.is_svip=1;
+  obj.user_info.isAutoRenew=1;
+  obj.user_info.is_plus_buy=1;
+  $done({body:JSON.stringify(obj)});
+}
+if($request.url.indexOf("rest/2.0/membership")!=-1)
+{
+  obj.level_info=a;
+  obj.previous_product=b;
+  obj.previous_product_v2=b;
+  obj.product_infos=c;
+  $done({body:JSON.stringify(obj)});
+}
+if($request.url.indexOf("pmall/order/privilege/info")!=-1)
+{
+  obj.vip_type="svip";
+  obj.current_valid_end_time=9000000000;
+  obj.detail=d;
+  $done({body:JSON.stringify(obj)});
+}
+
+if($request.url.indexOf("api/user/getinfo")!=-1)
+{
+  var bod=bod.replace(/nick_name":".*?"/g,'nick_name": "ILIVLII"').replace(/vip_level":\d,/g,'vip_level": 8,').replace(/vip_point":\d+,/g,'vip_point": 9999,').replace(/vip_type":\d+,/g,'vip_type":2,');
+  $done({body:bod});
+}
+$done()

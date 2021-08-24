@@ -1,9 +1,9 @@
 var bod=$response.body;
 let obj=JSON.parse(bod);
 var a={
-    "current_value": 999,
+    "current_value": 9999,
     "current_level": 8,
-    "history_value": 999,
+    "history_value": 9999,
     "history_level": 8
   };
 var b={
@@ -72,7 +72,7 @@ if($request.url.indexOf("pmall/order/privilege/info")!=-1)
 
 if($request.url.indexOf("api/user/getinfo")!=-1)
 {
-  var bod=bod.replace(/nick_name":".*?"/g,'nick_name": "ILIVLII"').replace(/vip_level":\d,/g,'vip_level": 8,').replace(/vip_point":\d+,/g,'vip_point": 999,').replace(/vip_type":\d+,/g,'vip_type":2,');
+  var bod=bod.replace(/nick_name":".*?"/g,'nick_name": "ILIVLII"').replace(/vip_level":\d,/g,'vip_level": 8,').replace(/vip_point":\d+,/g,'vip_point": 9999,').replace(/vip_type":\d+,/g,'vip_type":2,');
   $done({body:bod});
 }
 $done()

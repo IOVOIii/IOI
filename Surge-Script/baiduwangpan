@@ -39,12 +39,12 @@ var c=[{
   }];
 var d=[{
     "type": 1,
-    "total_times": 999,
-    "valid_times": 999
+    "total_times": 4092652348,
+    "valid_times": 4092652348
   }, {
     "type": 2,
-    "total_times": 999,
-    "valid_times": 999
+    "total_times": 4092652348,
+    "valid_times": 4092652348
   }];
 if($request.url.indexOf("rest/2.0/membership/user/info")!=-1)
 {

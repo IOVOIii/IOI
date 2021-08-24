@@ -1,1 +1,6 @@
-
+let obj=JSON.parse($response.body);
+if($request.url.indexOf("v1/user/info")!=-1)
+{
+  obj.response.level=2;
+}
+$done({body:JSON.stringify(obj)});

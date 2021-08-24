@@ -13,7 +13,7 @@ var b={
     "expired_time": 4092652348
   };
 var c=[{
-    "product_id": "5210897752128663390",
+    "product_id": "",
     "start_time": 1629538495,
     "end_time": 4092652348,
     "buy_time": "1629538495",
@@ -25,7 +25,7 @@ var c=[{
     "buy_description": "",
     "product_description": ""
   }, {
-    "product_id": "14040884078253912436",
+    "product_id": "",
     "start_time": 1629538495,
     "end_time": 4092652348,
     "buy_time": "1629538495",

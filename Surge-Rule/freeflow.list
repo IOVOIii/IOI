@@ -2,8 +2,8 @@
 # >国内
 # China Area Network
 #抖音
-DOMAIN-SUFFIX,*douyin*.com
-DOMAIN-SUFFIC,api*amemv*.com
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,amemv
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com

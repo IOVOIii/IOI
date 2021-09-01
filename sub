@@ -1,3 +1,19 @@
+剩余流量：512GB = ss, justcn2.xyz, 10086, encrypt-method=chacha20-ietf, password=oeukrhUpSokUC548, udp-relay=true
+过期时间：2021-10-02 = ss, justcn2.xyz, 10086, encrypt-method=chacha20-ietf, password=oeukrhUpSokUC548, udp-relay=true
+中国 山东联通100m 广停 2倍率 = vmess, 124.132.137.93, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:gd.189.cn, gd.189.cn
+中国 镇江100m  广停 台湾动画疯 2倍率 = vmess, 222.186.136.38, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:gd.189.cn, gd.189.cn
+中国 镇江100m 手厅 低跳点 台湾动画疯 2x = vmess, 222.186.136.38, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:pull.free.video.10010.com, pull.free.video.10010.com
+俄罗斯 1号200m 低跳点测试 0.5倍率 = vmess, els.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:pull.free.video.10010.com, pull.free.video.10010.com
+美国 200m 0.5倍率 = vmess, 198.211.50.125, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:dns.weixin.qq.com, dns.weixin.qq.com
+香港  2号 广停 1Gbps  = vmess, xg2.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:gd.189.cn, gd.189.cn
+香港  9号 广停 台湾流媒体B 1Gbps  vip1 = vmess, xg9.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:gd.189.cn, gd.189.cn
+香港 1号  3.5Gbps netfix 低跳点测试 = vmess, xg1.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:pull.free.video.10010.com, pull.free.video.10010.com
+香港 2号 vip2 CN2路由 原生Netflix 广停 = vmess, tx2.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:gd.189.cn, gd.189.cn
+香港 3号 5Gbps 香港流媒体 台湾动画疯 = vmess, xg3.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:gd.189.cn, gd.189.cn
+香港 4号vip1 电信cn2路由 = vmess, tx4.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/omanko.mp4, ws-headers=host:dns.weixin.qq.com, dns.weixin.qq.com
+香港 6号 广停 3.5Gbps vip2 = vmess, xg6.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:vod3.nty.tv189.cn, vod3.nty.tv189.cn
+香港 7号  3.5G vip2 台湾动画疯 = vmess, xg7.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/omanko.mp4, ws-headers=host:dns.weixin.qq.com, dns.weixin.qq.com
+香港 8号 手厅 低跳点  1Gbps = vmess, xg8.justcn2.top, 80, username = ebf1e875-b647-310b-a522-d8a43634f7c9, ws=true, ws-path=/, ws-headers=host:pull.free.video.10010.com, pull.free.video.10010.com
 山东 100M 80 ws 自动分流 隧道负载均衡(已禁回国) = vmess, sd.inode.top, 80, username=71fa31ce-c952-31a9-a736-04e522bfa8ff, ws=true, ws-path=/ws, ws-headers=host:"pull.free.video.10010.com"
 🇸🇬 新加坡-I 1G 80 ws 隧道负载均衡 = vmess, tunnel-auto-a.inode.top, 80, username=71fa31ce-c952-31a9-a736-04e522bfa8ff, ws=true, ws-path=/ws, ws-headers=host:"pull.free.video.10010.com"
 🇸🇬 新加坡-I 1G 80 ws 隧道负载均衡(广东停机卡) = vmess, tunnel-auto-a.inode.top, 80, username=71fa31ce-c952-31a9-a736-04e522bfa8ff, ws=true, ws-path=/TS/recharge/tzUrl.html, ws-headers=host:"gd.189.cn"

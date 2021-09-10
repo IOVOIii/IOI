@@ -4,6 +4,8 @@
 # > 抖音
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,amemv
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,amemv.com
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com

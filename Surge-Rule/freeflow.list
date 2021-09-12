@@ -6,6 +6,9 @@ DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,amemv
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,byteimg.com
+# >百度音乐
+DOMAIN-SUFFIX,zjcdn.com
 # > 360
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhimg.com

@@ -2,7 +2,7 @@
 # > 国内
 # China Area Network
 # >米哈游
-DOMAIN-SUFFIX,yuanshen.com
+#DOMAIN-SUFFIX,yuanshen.com
 # > 抖音
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,amemv

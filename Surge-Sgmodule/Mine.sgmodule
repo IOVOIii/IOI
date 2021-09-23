@@ -423,6 +423,10 @@ Surge-template = type=http-response,pattern=^https:\/\/Surge-template,requires-b
 Surge-test = type=http-response,pattern=^https:\/\/Surge-test,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/Surge-test
 #百度网盘VIP
 百度网盘VIP = type=http-response,pattern= ^https:\/\/pan\.baidu\.com\/(rest\/2.0\/membership.*?|pmall/order/privilege/info|api/user/getinfo),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/baiduwangpan
+#京豆签到
+
+京豆签到 = type=cron,cronexp= 0 0 11 * * *,wake-system=1,timeout=3600,script-path=^https:\/\/raw.githubusercontent/DobyDa/Script/master/JD-DailyBonus\JD_DailyBonus.js
+
 #菠萝视频解锁无限看
 #下载地址：https://aff.polomv.com/af/edrJ
 菠萝视频解锁无限看 = type=http-response,pattern= ^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/boluosp

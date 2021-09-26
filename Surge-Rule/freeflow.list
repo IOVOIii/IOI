@@ -3,6 +3,8 @@
 # China Area Network
 # >米哈游
 #DOMAIN-SUFFIX,yuanshen.com
+# >阿里云盘
+DOMAIN-KEYWORD,aliyun
 # > 抖音
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,amemv

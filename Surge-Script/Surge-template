@@ -13,7 +13,7 @@ if($request.url.indexOf("v1/user/info")!=-1)
 $done({body:JSON.stringify(obj)});
 
 var obj=$response.body;
-var obj=obj.replace(/userVip":\d/g,'userVip":1').replace(/expiredTime":\d+/g,'expiredTime":4092647115000').replace(/nickname":.+?,/g,'vip_end_date":"IOVOI",');
+var obj=obj.replace(/"userVip":"\d+"/g,'"userVip":"1"').replace(/"expiredTime":\d+/g,'"expiredTime":4092647115000').replace(/"nickname":.+?,/g,'"vip_end_date":"IOVOI",');
 $done({body:obj});
 
 var obj=$response.body;

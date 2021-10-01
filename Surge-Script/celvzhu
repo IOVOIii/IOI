@@ -14,7 +14,7 @@ groupPanel = script-name=groupPanel,update-interval=5
 ;(async () => {
 
 let params = getParams($argument);
-let group = params.group;
+let group = params.🖥 YouTube;
 let proxy = await httpAPI("/v1/policy_groups");
 let groupName = (await httpAPI("/v1/policy_groups/select?group_name="+group+"")).policy;
 var proxyName= [];
@@ -57,7 +57,7 @@ if(arr[index].isGroup==true){
     $done({
       title:group,
       content:name,
-      icon: params.icon,
+      icon: params.🖥,
   "icon-color":params.color
     });
 })();

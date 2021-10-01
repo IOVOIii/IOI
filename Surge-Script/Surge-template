@@ -16,6 +16,14 @@ var obj=$response.body;
 var obj=obj.replace(/"userVip":"\d+"/g,'"userVip":"1"').replace(/"expiredTime":\d+/g,'"expiredTime":4092647115000').replace(/"nickname":.+?,/g,'"vip_end_date":"IOVOI",');
 $done({body:obj});
 
+var me=$request.method;
+var a="GET";
+var b="POST";
+if (a==me) 
+{
+  $notification.post(0, 0, 0);
+}
+
 var obj=$response.body;
 var a="36aa8bb5b88a03d405bc1fd425d48a9feyJjb2RlIjowLCJtc2ciOiJzdWNjZXNzIiwiZGF0YSI6eyJsaXN0IjpbXX1936aa8bb5b88a03d405bc1fd425d48a9f";
 if($request.url.indexOf("member/index")!=-1)

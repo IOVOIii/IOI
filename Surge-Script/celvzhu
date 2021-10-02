@@ -20,28 +20,35 @@ let groupName = (await httpAPI("/v1/policy_groups/select?group_name="+group+""))
 var proxyName= [];
 let arr = proxy[""+group+""];
 
-for (let i = 0; i < arr.length; ++i) {
-proxyName.push(arr[i].name);
+for (let i = 0; i < arr.length; ++i) 
+{
+  proxyName.push(arr[i].name);
 }
 
 let index;
 
-for(let i = 0;i < proxyName.length; ++i) {
-	if(groupName==proxyName[i]){
-index=i
+for(let i = 0;i < proxyName.length; ++i) 
+{
+	if(groupName==proxyName[i])
+	{
+          index=i
 	}
 };
 
-if($trigger == "button"){
-for(let i = 0;i < proxyName.length; ++i) {
-	if(groupName==proxyName[i]){
-index=i+1
-	}
-}
+if($trigger == "button")
+{
+  for(let i = 0;i < proxyName.length; ++i) 
+       {
+	if(groupName==proxyName[i])
+	  {
+            index=i+1
+	  }
+       }
 
-if(index>arr.length-1){
+  if(index>arr.length-1)
+  {
 	index = 0;
-	}
+  }
 
 let body = {"group_name": group, "policy": proxyName[index]};
 await httpAPI("/v1/policy_groups/select","POST",body);
@@ -49,7 +56,8 @@ await httpAPI("/v1/policy_groups/select","POST",body);
 
 let name =proxyName[index];
 let rootName;
-if(arr[index].isGroup==true){
+if(arr[index].isGroup==true)
+{
 	rootName = (await httpAPI("/v1/policy_groups/select?group_name="+name+"")).policy;
 	name=name + ' ➟ ' + rootName;
 }

@@ -23,7 +23,7 @@ let arr = proxy[""+group+""];
 for (let i = 0; i < arr.length; ++i) 
 {
   proxyName.push(arr[i].name);
-}
+};
 
 let index;
 
@@ -49,9 +49,7 @@ if($trigger == "button")
   {
 	index = 0;
   }
-
-let body = {"group_name": group, "policy": proxyName[index]};
-await httpAPI("/v1/policy_groups/select","POST",body);
+$surge.setSelectGroupPolicy(group, proxyName[index]);
 };
 
 let name =proxyName[index];

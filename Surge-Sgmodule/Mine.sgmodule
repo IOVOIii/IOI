@@ -1,6 +1,9 @@
 #!name=Mine
 #!desc=自用模块
 
+[General]
+force-http-engine-hosts = %APPEND%,*api*.com
+
 [Panel]
 YouTube = script-name=YouTube,update-interval=1
 Telegram = script-name=Telegram,update-interval=1
@@ -10,8 +13,6 @@ Master = script-name=Master,update-interval=1
 Node = script-name=Node,update-interval=1
 AD = script-name=AD,update-interval=1
 
-[General]
-force-http-engine-hosts = %APPEND%,*api*.com
 [Rule]
 #bilibili
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT

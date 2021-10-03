@@ -1,5 +1,5 @@
 #!name=Mine
-#!desc=通用模块
+#!desc=自用模块
 
 [General]
 force-http-engine-hosts = %APPEND%,*api*.com

@@ -11,6 +11,7 @@ Freeflow = script-name=Freeflow,update-interval=1
 Apple = script-name=Apple,update-interval=1
 Master = script-name=Master,update-interval=1
 Node = script-name=Node,update-interval=1
+Proxy = script-name=Proxy,update-interval=1
 AD = script-name=AD,update-interval=1
 
 [Rule]
@@ -86,6 +87,7 @@ Freeflow = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/
 Apple = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=iphone&color=#C0C0C0&group=Apple
 Master = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=waveform&color=#C0C0C0&group=Master
 Node = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=square.stack.3d.up.fill&color=#C0C0C0&group=Node
+Proxy = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=tag&color=#C0C0C0&group=Proxy
 AD = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=safari&color=#C0C0C0&group=AD
 
 [Map Local]

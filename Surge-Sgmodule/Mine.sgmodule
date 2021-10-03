@@ -3,17 +3,11 @@
 
 [Panel]
 YouTube = script-name=YouTube,update-interval=1
-
 Telegram = script-name=Telegram,update-interval=1
-
 Freeflow = script-name=Freeflow,update-interval=1
-
 Apple = script-name=Apple,update-interval=1
-
 Master = script-name=Master,update-interval=1
-
 Node = script-name=Node,update-interval=1
-
 AD = script-name=AD,update-interval=1
 
 [General]

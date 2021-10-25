@@ -7,12 +7,12 @@ force-http-engine-hosts = %APPEND%,*api*.com
 [Panel]
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
 SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
+#刷新DNS
+DNS = script-name=DNS,update-interval=1
 #流量统计
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 #网络详情
 NET_info = script-name=NET_info,update-interval=1
-#刷新DNS
-DNS = script-name=DNS,update-interval=1
 #PanelGroup面板信息
 YouTube = script-name=YouTube,update-interval=1
 Telegram = script-name=Telegram,update-interval=1

@@ -5,6 +5,13 @@
 force-http-engine-hosts = %APPEND%,*api*.com
 
 [Panel]
+#Surge Pro标题,可显示启动时间,点击刷新为重载配置
+SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
+#流量统计
+TrafficStatistics = script-name=TrafficStatistics,update-interval=1
+#网络详情
+NET_info = script-name=NET_info,update-interval=1
+#PanelGroup面板信息
 YouTube = script-name=YouTube,update-interval=1
 Telegram = script-name=Telegram,update-interval=1
 Freeflow = script-name=Freeflow,update-interval=1
@@ -54,13 +61,8 @@ URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start,REJECT-TI
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash - reject
 
 [Header Rewrite]
-#涩里番VIP视频无限看
-#下载地址
-#https://slf506.com?_s=XELGEF
-^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ header-replace token 90d44e34f308d1cb9a538fd4c3d0ca0e
-^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ header-replace uid 3092806
 #香蕉视频
-^https:\/\/.*\.*apps\.com header-replace Cookie xxx_api_auth=6337396563633864643236616238336537633661343338646261393238363237
+#^https:\/\/.*\.*apps\.com header-replace Cookie xxx_api_auth=6337396563633864643236616238336537633661343338646261393238363237
 
 [Script]
 #Surge-template
@@ -81,6 +83,9 @@ YouTube_去广告 = type= http-request,pattern=https://[\s\S]*\.googlevideo\.com
 #香蕉视频
 #香蕉视频 = type= http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/xjsp,pattern=https?:\/\/.*\.*apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/)
 #PanelGroup
+SurgePro_ReloadProfile = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/SurgeProPanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
+TrafficStatistics = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/TrafficStatisticsPanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
+NET_info = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/NetPanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
 YouTube = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
 Telegram = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=keyboard&color=#C0C0C0&group=Telegram
 Freeflow = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=flame&color=#C0C0C0&group=Freeflow

@@ -77,10 +77,10 @@ ipcheck = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/I
 #刷新DNS
 刷新DNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DnsPanelGroup,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
 #Panel
-YouTube = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
-Telegram = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=keyboard&color=#C0C0C0&group=Telegram
-Freeflow = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=flame&color=#C0C0C0&group=Freeflow
+#YouTube = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=tv&color=#C0C0C0&group=YouTube
+#Telegram = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=keyboard&color=#C0C0C0&group=Telegram
 Apple = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=iphone&color=#C0C0C0&group=Apple
+Free = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=flame&color=#C0C0C0&group=Freeflow
 Master = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=waveform&color=#C0C0C0&group=Master
 Node = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=square.stack.3d.up.fill&color=#C0C0C0&group=Node
 Proxy = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=tag&color=#C0C0C0&group=Proxy

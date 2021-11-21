@@ -14,8 +14,8 @@ ipcheck = script-name=ipcheck, title="节点信息", content="请刷新", style=
 #PanelGroup面板信息
 #YouTube = script-name=YouTube,update-interval=1
 #Telegram = script-name=Telegram,update-interval=1
-Apple = script-name=Apple,update-interval=1
-Free = script-name=Free,update-interval=1
+#Apple = script-name=Apple,update-interval=1
+#Free = script-name=Free,update-interval=1
 Master = script-name=Master,update-interval=1
 Node = script-name=Node,update-interval=1
 Proxy = script-name=Proxy,update-interval=1

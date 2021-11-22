@@ -1,6 +1,0 @@
-let obj=JSON.parse($response.body);
-if($request.url.indexOf("api/video/user/data")!=-1)
-{
-  obj.data="B1iAwq3r7Rq+FsmHqF3Ld9ZGmCNaBBE9VhuH16IWBLfWiHTB2F+8ThfGpFmDFUoA4ROwQWTHmF7RT/MVxHrFxWAhR6HzApdHUU5vTHP9oEJP6aWLLLW3mabNV5PCubKVaK6OyVRZBR1+v+8kMKs1GVqB+AyuIMvdQMVnT0T8BTSw9c7WpWON+FJBH0UzZancrG6ATYQLzHwbCcs04QAeiw==";
-}
-$done({body:JSON.stringify(obj)});

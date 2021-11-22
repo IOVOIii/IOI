@@ -12,7 +12,7 @@ SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
 #节点检测
 ipcheck = script-name=ipcheck, title="节点信息", content="请刷新", style=info, update-interval=1
 #Netflix策略组自动控制
-NetflixController = script-name=NetflixController, update-interval=1
+#NetflixController = script-name=NetflixController, update-interval=1
 #PanelGroup面板信息
 #YouTube = script-name=YouTube,update-interval=1
 #Telegram = script-name=Telegram,update-interval=1

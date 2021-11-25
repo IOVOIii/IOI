@@ -78,5 +78,5 @@ YouTube_去广告 = type= http-request,pattern=https://[\s\S]*\.googlevideo\.com
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad data="https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Rule/WeChat.json"
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com,ms.jr.jd.com,me-api.jd.com,api.m.jd.com,pan.baidu.com:443, api-access.pangolin-sdk-toutiao.com:443, sf3-fe-tos.pglstatp-toutiao.com:443, getuserinfo.65sy.com:443, purchase-globalapi.65sy.com:443, userpurchased-globalapi.65sy.com:443, api.zdhndz.net:443, api.rr.tv, api.live.bilibili.com, api.vc.bilibili.com, app.bilibili.com:443, shapi.bvaqnfm.cn:443, mda.mdsv*.site:443, commerce-api.faceu.mobi:443, xw-lv.hengmanjiankang.cn:443, xw-lt.hengmanjiankang.cn:443, shapi.ysqhds.com:443, api.sumsun.top:443, api.jttv*.cc:443, *.guoguoapps.com:443, *xiangxiangapps.com:443, api.geleem.net:443
+hostname = %APPEND% *.googlevideo.com,ms.jr.jd.com,me-api.jd.com,api.m.jd.com,pan.baidu.com:443,api-access.pangolin-sdk-toutiao.com:443,sf3-fe-tos.pglstatp-toutiao.com:443,api.rr.tv,api.live.bilibili.com,api.vc.bilibili.com,app.bilibili.com:443
 

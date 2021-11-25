@@ -31,7 +31,6 @@ URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?
 
 [Host]
 
-
 [URL Rewrite]
 #bilibili
 # 去除搜索中的大家都在搜

@@ -8,7 +8,7 @@ force-http-engine-hosts = %APPEND%,*api*.com
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
 SurgePro = script-name=SurgePro,update-interval=1
 #刷新DNS
-DNS = script-name=DNS,update-interval=1
+刷新DNS = script-name=DNS,update-interval=1
 #节点检测
 IP = script-name=IP, title="节点信息", content="请刷新", style=info, update-interval=1
 #Netflix策略组自动控制

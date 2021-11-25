@@ -8,7 +8,7 @@ force-http-engine-hosts = %APPEND%,*api*.com
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
 SurgePro = script-name=SurgePro,update-interval=1
 #刷新DNS
-刷新DNS = script-name=DNS,update-interval=1
+刷新DNS = script-name=刷新DNS,update-interval=1
 #节点检测
 IP = script-name=IP, title="节点信息", content="请刷新", style=info, update-interval=1
 #Netflix策略组自动控制
@@ -75,7 +75,7 @@ Surge-test = type=http-response,pattern=^https:\/\/Surge-test,requires-body=1,ma
 #SurgePro
 SurgePro = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/SurgeProPanelGroup,argument=icon=crown.fill&color=#f6c970
 #刷新DNS
-DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DnsPanelGroup,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
+刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DnsPanelGroup,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
 #节点检测
 IP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/NetPanelGroup
 #netflix策略组控制

@@ -23,7 +23,7 @@ DOMAIN,mesu.apple.com,REJECT
 DOMAIN,gdmf.apple.com,REJECT
 DOMAIN,updates-http.cdn-apple.com,REJECT
 DOMAIN,xp.apple.com,REJECT
-# 绕过企业证书过期
+# 绕过证书过期
 DOMAIN,ocsp.apple.com,REJECT
 #bilibili
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT

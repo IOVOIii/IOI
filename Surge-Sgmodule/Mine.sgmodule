@@ -57,7 +57,7 @@ Surge-test = type=http-response,pattern=^https:\/\/Surge-test,requires-body=1,ma
 #SurgePro
 SurgePro = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/SurgeProPanelGroup,argument=icon=crown.fill&color=#f6c970
 #刷新DNS
-刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DnsPanel,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
+刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DnsPanelGroup,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
 #节点检测
 IP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/NetPanelGroup
 #Panel

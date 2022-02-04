@@ -67,17 +67,12 @@ Proxy = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOV
 AD = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=safari&color=#C0C0C0&group=AD
 #百度网盘VIP
 百度网盘VIP = type=http-response,pattern= ^https:\/\/pan\.baidu\.com\/(rest\/2.0\/membership.*?|pmall/order/privilege/info|api/user/getinfo),requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/baiduwangpan
-#京豆签到
-京东签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 #BiliBili_去广告
 BiliBili_去广告 = type=http-response,requires-body=1,script-path= https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/bilibili,pattern= ^https:\/\/(app|api|api.vc|api.live)\.bilibili\.com\/(x/v2/splash/list|x/v2/account/mine|x/resource/show/tab|x/v2/feed/index.*?|pgc/page/bangumi|xlive/app-room/v1/index/getInfoByRoom|dynamic_svr/v1/dynamic_svr/dynamic.*?)
-#YouTube
-YouTube_去广告 = type= http-request,pattern=https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path= https://Choler.github.io/Surge/Script/YouTube.js
 
 [Map Local]
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad data="https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Rule/WeChat.json"
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com,ms.jr.jd.com,me-api.jd.com,api.m.jd.com,pan.baidu.com:443,api-access.pangolin-sdk-toutiao.com:443,sf3-fe-tos.pglstatp-toutiao.com:443,api.rr.tv,api.live.bilibili.com,api.vc.bilibili.com,app.bilibili.com:443
+hostname = %APPEND% pan.baidu.com:443,api.live.bilibili.com,api.vc.bilibili.com,app.bilibili.com:443
 

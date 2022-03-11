@@ -87,9 +87,9 @@
 	# VMess 的配置
 	 - name: "HK-V" # 软件显示的节点名字
 	  type: vmess # 代理类型
-	  server: www.lowoll.xyz # 服务器 IP
-	  port: 1315 # 端口号
-	  uuid: 84ab95e3-fc34-4f9e-f22e-3892a0032169
+	  server: # 服务器 IP
+	  port: # 端口号
+	  uuid: 4f9e-f22e-3892a0032169
 	  alterId: 0 #额外的 ID
 	  cipher: auto
 	# #上面几行为必选参数
@@ -105,9 +105,9 @@
 	# Trojan 的配置
 	- name: "HK-TR"
 	 type: trojan
-	 server: www.lowoll.xyz
-	 port: 1314
-	 password: sW24RaYxnb
+	 server: 
+	 port: 
+	 password: 
 	# # udp: true
 	# # sni: example.com # aka server name
 	# # alpn:

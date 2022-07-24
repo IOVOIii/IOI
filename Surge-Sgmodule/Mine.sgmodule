@@ -11,6 +11,8 @@ SurgePro = script-name=SurgePro,update-interval=1
 刷新DNS = script-name=刷新DNS,update-interval=1
 #节点检测
 IP = script-name=IP, title="节点信息", content="请刷新", style=info, update-interval=1
+#流媒体检测
+stream-all = script-name=stream-all, title="流媒体解锁检测", content="请刷新面板", update-interval=-1
 #PanelGroup面板信息
 Master = script-name=Master,update-interval=1
 Node = script-name=Node,update-interval=1
@@ -60,6 +62,8 @@ SurgePro = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/
 刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/DNSPanelGroup,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
 #节点检测
 IP = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/NetPanelGroup
+# 流媒体解锁检测
+stream-all = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/Stream-All
 #Panel
 Master = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=waveform&color=#C0C0C0&group=Master
 Node = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/IOVOIii/IOI/main/Surge-Script/PanelGroup,argument=icon=square.stack.3d.up.fill&color=#C0C0C0&group=Node

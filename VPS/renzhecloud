@@ -1,50 +1,49 @@
-香港🇭🇰01 = ss, bs1.jymzffbquawl.com, 3600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰02 = ss, bs1.jymzffbquawl.com, 3601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰03 = ss, bs1.jymzffbquawl.com, 3602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰04 = ss, bs1.jymzffbquawl.com, 3603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰05 = ss, bs1.jymzffbquawl.com, 3604, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰06 = ss, bs1.jymzffbquawl.com, 3605, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰07 = ss, bs1.jymzffbquawl.com, 3606, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰08 = ss, bs1.jymzffbquawl.com, 3607, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰09 = ss, bs1.jymzffbquawl.com, 3608, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰10 = ss, bs1.jymzffbquawl.com, 3609, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰11 = ss, bs2.jymzffbquawl.com, 3600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰12 = ss, bs2.jymzffbquawl.com, 3601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰13 = ss, bs2.jymzffbquawl.com, 3602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰14 = ss, bs2.jymzffbquawl.com, 3603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰15 = ss, bs2.jymzffbquawl.com, 3604, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰16 = ss, bs2.jymzffbquawl.com, 3605, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰17 = ss, bs2.jymzffbquawl.com, 3606, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰18 = ss, bs2.jymzffbquawl.com, 3607, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰19 = ss, bs2.jymzffbquawl.com, 3608, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰01 = ss, bs3.jymzffbquawl.com, 3026, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰02 = ss, bs3.jymzffbquawl.com, 3036, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰03 = ss, bs3.jymzffbquawl.com, 3046, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰04 = ss, bs4.jymzffbquawl.com, 3026, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰05 = ss, bs4.jymzffbquawl.com, 3036, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-台湾🇭🇰06 = ss, bs4.jymzffbquawl.com, 3046, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬01 = ss, bs3.jymzffbquawl.com, 6600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬02 = ss, bs3.jymzffbquawl.com, 6601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬03 = ss, bs3.jymzffbquawl.com, 6602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬04 = ss, bs3.jymzffbquawl.com, 6603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬05 = ss, bs4.jymzffbquawl.com, 6600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬06 = ss, bs4.jymzffbquawl.com, 6601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬07 = ss, bs4.jymzffbquawl.com, 6602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-新加坡🇸🇬08 = ss, bs4.jymzffbquawl.com, 6603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵01 = ss, bs3.jymzffbquawl.com, 4600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵02 = ss, bs3.jymzffbquawl.com, 4601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵03 = ss, bs3.jymzffbquawl.com, 4602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵04 = ss, bs3.jymzffbquawl.com, 4603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵05 = ss, bs4.jymzffbquawl.com, 4600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵06 = ss, bs4.jymzffbquawl.com, 4601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵07 = ss, bs4.jymzffbquawl.com, 4602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-日本🇯🇵08 = ss, bs4.jymzffbquawl.com, 4603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-香港🇭🇰20 = ss, bs2.jymzffbquawl.com, 3609, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸01 = ss, bs3.jymzffbquawl.com, 5600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸02 = ss, bs3.jymzffbquawl.com, 5601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸03 = ss, bs3.jymzffbquawl.com, 5602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸04 = ss, bs3.jymzffbquawl.com, 5603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸05 = ss, bs4.jymzffbquawl.com, 5600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸06 = ss, bs4.jymzffbquawl.com, 5601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸07 = ss, bs4.jymzffbquawl.com, 5602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
-美国🇺🇸08 = ss, bs4.jymzffbquawl.com, 5603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港01 = ss, bs1.jymzffbquawl.com, 3600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港02 = ss, bs1.jymzffbquawl.com, 3601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港03 = ss, bs1.jymzffbquawl.com, 3602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港04 = ss, bs1.jymzffbquawl.com, 3603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港05 = ss, bs1.jymzffbquawl.com, 3604, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港06 = ss, bs1.jymzffbquawl.com, 3605, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港07 = ss, bs1.jymzffbquawl.com, 3606, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港08 = ss, bs1.jymzffbquawl.com, 3607, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港09 = ss, bs1.jymzffbquawl.com, 3608, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港10 = ss, bs1.jymzffbquawl.com, 3609, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港11 = ss, bs2.jymzffbquawl.com, 3600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港12 = ss, bs2.jymzffbquawl.com, 3601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港13 = ss, bs2.jymzffbquawl.com, 3602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港14 = ss, bs2.jymzffbquawl.com, 3603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港15 = ss, bs2.jymzffbquawl.com, 3604, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港16 = ss, bs2.jymzffbquawl.com, 3605, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港17 = ss, bs2.jymzffbquawl.com, 3606, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港18 = ss, bs2.jymzffbquawl.com, 3607, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰香港19 = ss, bs2.jymzffbquawl.com, 3608, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾01 = ss, bs3.jymzffbquawl.com, 3026, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾02 = ss, bs3.jymzffbquawl.com, 3036, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾03 = ss, bs3.jymzffbquawl.com, 3046, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾04 = ss, bs4.jymzffbquawl.com, 3026, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾05 = ss, bs4.jymzffbquawl.com, 3036, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇭🇰台湾06 = ss, bs4.jymzffbquawl.com, 3046, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡01 = ss, bs3.jymzffbquawl.com, 6600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡02 = ss, bs3.jymzffbquawl.com, 6601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡03 = ss, bs3.jymzffbquawl.com, 6602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡04 = ss, bs3.jymzffbquawl.com, 6603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡05 = ss, bs4.jymzffbquawl.com, 6600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡06 = ss, bs4.jymzffbquawl.com, 6601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡07 = ss, bs4.jymzffbquawl.com, 6602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇸🇬新加坡08 = ss, bs4.jymzffbquawl.com, 6603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本01 = ss, bs3.jymzffbquawl.com, 4600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本02 = ss, bs3.jymzffbquawl.com, 4601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本03 = ss, bs3.jymzffbquawl.com, 4602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本04 = ss, bs3.jymzffbquawl.com, 4603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本05 = ss, bs4.jymzffbquawl.com, 4600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本06 = ss, bs4.jymzffbquawl.com, 4601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本07 = ss, bs4.jymzffbquawl.com, 4602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇯🇵日本08 = ss, bs4.jymzffbquawl.com, 4603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国01 = ss, bs3.jymzffbquawl.com, 5600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国02 = ss, bs3.jymzffbquawl.com, 5601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国03 = ss, bs3.jymzffbquawl.com, 5602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国04 = ss, bs3.jymzffbquawl.com, 5603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国05 = ss, bs4.jymzffbquawl.com, 5600, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国06 = ss, bs4.jymzffbquawl.com, 5601, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国07 = ss, bs4.jymzffbquawl.com, 5602, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true
+🇺🇸美国08 = ss, bs4.jymzffbquawl.com, 5603, encrypt-method=rc4-md5, password=RenzheCloudSS, obfs=http, obfs-host=bb2a5281953.microsoft.com:, udp-relay=true

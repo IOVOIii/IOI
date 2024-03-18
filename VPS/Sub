@@ -1,74 +1,74 @@
-Hong Kong-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56001, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56002, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56003, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56004, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56005, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-06 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56006, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-07 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56007, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-08 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56008, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-09 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56009, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-10 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56010, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-11 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56011, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-12 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56012, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-13 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56013, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-14 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56014, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-15 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56015, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-16 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56016, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-17 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56017, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-18 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56018, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-19 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56019, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Hong Kong-20 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56020, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56021, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56022, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56023, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56024, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56025, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-06 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56026, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-07 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56027, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-08 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56028, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-09 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56029, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Taiwan-10 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56030, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56031, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56032, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56033, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56034, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56035, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-06 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56036, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-07 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56037, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-08 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56038, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-09 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56039, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Japan-10 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56040, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56041, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56042, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56043, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56044, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56045, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-06 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56046, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-07 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56047, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-08 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56048, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-09 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56049, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Singapore-10 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56050, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56051, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56052, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56053, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56054, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56055, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-06 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56056, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-07 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56057, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-08 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56058, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-09 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56059, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-USA-10 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56060, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-UK-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56061, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-UK-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56062, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-UK-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56063, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-UK-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56064, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-UK-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56065, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Malaysia-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56066, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Malaysia-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56067, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Malaysia-03 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56068, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Malaysia-04 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56069, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Malaysia-05 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56070, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Turkey-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56097, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Turkey-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56098, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Argentina-01 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56099, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
-Argentina-02 = ss, b995bc55.pnd6xm1ljcfpc3b-fbnode.6pzfwf.com, 56100, encrypt-method=chacha20-ietf-poly1305, password=L0v13L, udp-relay=true
+Hong Kong-01 = ss, af27301b.h2m5m5m7s3-fb-hk01.6pzfwf.com, 56001, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-02 = ss, af27301b.z4f0d9i1c6-fb-hk02.6pzfwf.com, 56002, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-03 = ss, af27301b.w1o0q7h0v5-fb-hk03.6pzfwf.com, 56003, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-04 = ss, af27301b.k7y6j1q5j7-fb-hk04.6pzfwf.com, 56004, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-05 = ss, af27301b.t1v0e4l6w3-fb-hk05.6pzfwf.com, 56005, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-06 = ss, af27301b.l3x3b6j6c7-fb-hk06.6pzfwf.com, 56006, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-07 = ss, af27301b.x6m8q1f3y9-fb-hk07.6pzfwf.com, 56007, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-08 = ss, af27301b.c8p8o0c5i9-fb-hk08.6pzfwf.com, 56008, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-09 = ss, af27301b.j9i1k1d2n6-fb-hk09.6pzfwf.com, 56009, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-10 = ss, af27301b.m2b9c0k7b0-fb-hk10.6pzfwf.com, 56010, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-11 = ss, af27301b.d9l6y9i3u7-fb-hk11.6pzfwf.com, 56011, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-12 = ss, af27301b.b4t0o9j7z0-fb-hk12.6pzfwf.com, 56012, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-13 = ss, af27301b.e1m8h0s6c4-fb-hk13.6pzfwf.com, 56013, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-14 = ss, af27301b.j4o1v1d1m8-fb-hk14.6pzfwf.com, 56014, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-15 = ss, af27301b.c7b7m4g9w5-fb-hk15.6pzfwf.com, 56015, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-16 = ss, af27301b.b4c3y4i5k7-fb-hk16.6pzfwf.com, 56016, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-17 = ss, af27301b.j3o0d1w0i2-fb-hk17.6pzfwf.com, 56017, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-18 = ss, af27301b.b8z9y9a5g9-fb-hk18.6pzfwf.com, 56018, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-19 = ss, af27301b.n2k5u8p2l3-fb-hk19.6pzfwf.com, 56019, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Hong Kong-20 = ss, af27301b.q2q1r7t7i1-fb-hk20.6pzfwf.com, 56020, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-01 = ss, af27301b.g5i2h5u6j3-fb-tw01.6pzfwf.com, 56021, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-02 = ss, af27301b.q5p4g2i9n8-fb-tw02.6pzfwf.com, 56022, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-03 = ss, af27301b.e1f4p6b9l6-fb-tw03.6pzfwf.com, 56023, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-04 = ss, af27301b.d9e3a5o3m3-fb-tw04.6pzfwf.com, 56024, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-05 = ss, af27301b.t3w5r6a5b6-fb-tw05.6pzfwf.com, 56025, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-06 = ss, af27301b.w7e0v1h7s6-fb-tw06.6pzfwf.com, 56026, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-07 = ss, af27301b.b4s1f7b1f6-fb-tw07.6pzfwf.com, 56027, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-08 = ss, af27301b.w1q4y3g3y9-fb-tw08.6pzfwf.com, 56028, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-09 = ss, af27301b.e7n4h8o6p2-fb-tw09.6pzfwf.com, 56029, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Taiwan-10 = ss, af27301b.e2l8i4d0s6-fb-tw10.6pzfwf.com, 56030, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-01 = ss, af27301b.u2k2b1y2y8-fb-jp01.6pzfwf.com, 56031, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-02 = ss, af27301b.k3c0d7u0o8-fb-jp02.6pzfwf.com, 56032, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-03 = ss, af27301b.x8u0j9p3x8-fb-jp03.6pzfwf.com, 56033, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-04 = ss, af27301b.i5l0q0z1g9-fb-jp04.6pzfwf.com, 56034, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-05 = ss, af27301b.o0p2h3c6e9-fb-jp05.6pzfwf.com, 56035, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-06 = ss, af27301b.x0j0t7m4c2-fb-jp06.6pzfwf.com, 56036, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-07 = ss, af27301b.r7p0n9u0u1-fb-jp07.6pzfwf.com, 56037, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-08 = ss, af27301b.w3j6z0w5r1-fb-jp08.6pzfwf.com, 56038, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-09 = ss, af27301b.x9o3f2u7o5-fb-jp09.6pzfwf.com, 56039, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Japan-10 = ss, af27301b.l4a7m1t7o9-fb-jp10.6pzfwf.com, 56040, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-01 = ss, af27301b.g1v1p1b6f2-fb-sg01.6pzfwf.com, 56041, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-02 = ss, af27301b.n3k8r2m5d0-fb-sg02.6pzfwf.com, 56042, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-03 = ss, af27301b.h1v1d0d4y0-fb-sg03.6pzfwf.com, 56043, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-04 = ss, af27301b.v7j4k1a0s1-fb-sg04.6pzfwf.com, 56044, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-05 = ss, af27301b.v2c3p9i2y0-fb-sg05.6pzfwf.com, 56045, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-06 = ss, af27301b.q2q9p9t0q2-fb-sg06.6pzfwf.com, 56046, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-07 = ss, af27301b.l9x3y6g1c9-fb-sg07.6pzfwf.com, 56047, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-08 = ss, af27301b.y6r5t2u7x1-fb-sg08.6pzfwf.com, 56048, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-09 = ss, af27301b.p0c1h3j5d6-fb-sg09.6pzfwf.com, 56049, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Singapore-10 = ss, af27301b.i6c5x1e2v0-fb-sg10.6pzfwf.com, 56050, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-01 = ss, af27301b.y7i6z4w6e7-fb-us01.6pzfwf.com, 56051, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-02 = ss, af27301b.k2a9o5h3x3-fb-us02.6pzfwf.com, 56052, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-03 = ss, af27301b.p1s6x6l9p5-fb-us03.6pzfwf.com, 56053, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-04 = ss, af27301b.h1v9e3i3t5-fb-us04.6pzfwf.com, 56054, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-05 = ss, af27301b.k3t6s5q3d0-fb-us05.6pzfwf.com, 56055, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-06 = ss, af27301b.r9m6t7z0c1-fb-us06.6pzfwf.com, 56056, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-07 = ss, af27301b.l9o6m8o8g7-fb-us07.6pzfwf.com, 56057, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-08 = ss, af27301b.l5s0n8w0r7-fb-us08.6pzfwf.com, 56058, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-09 = ss, af27301b.n1b6u7w1e6-fb-us09.6pzfwf.com, 56059, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+USA-10 = ss, af27301b.c5m1d8v9t6-fb-us10.6pzfwf.com, 56060, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+UK-01 = ss, af27301b.r2n3u8n5a2-fb-uk01.6pzfwf.com, 56061, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+UK-02 = ss, af27301b.n7y5v1s7m1-fb-uk02.6pzfwf.com, 56062, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+UK-03 = ss, af27301b.y6k6k6p7z5-fb-uk03.6pzfwf.com, 56063, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+UK-04 = ss, af27301b.e7d2l1j0x3-fb-uk04.6pzfwf.com, 56064, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+UK-05 = ss, af27301b.l6d3a8u9c1-fb-uk05.6pzfwf.com, 56065, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Malaysia-01 = ss, af27301b.v6q5t9f8a0-fb-my01.6pzfwf.com, 56066, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Malaysia-02 = ss, af27301b.t3s9n7b1x8-fb-my02.6pzfwf.com, 56067, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Malaysia-03 = ss, af27301b.r3g4r1m8j1-fb-my03.6pzfwf.com, 56068, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Malaysia-04 = ss, af27301b.i7v2a9h4n2-fb-my04.6pzfwf.com, 56069, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Malaysia-05 = ss, af27301b.u2k3f8l6w4-fb-my05.6pzfwf.com, 56070, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Turkey-01 = ss, af27301b.u1n0r7b7j6-fb-tr01.6pzfwf.com, 56097, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Turkey-02 = ss, af27301b.a9j8w9y8i0-fb-tr02.6pzfwf.com, 56098, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Argentina-01 = ss, af27301b.x5z4i3p6a9-fb-ar01.6pzfwf.com, 56099, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
+Argentina-02 = ss, af27301b.c4h0m9x2t7-fb-ar02.6pzfwf.com, 56100, encrypt-method=chacha20-ietf-poly1305, password=iWGhEJ, udp-relay=true
